@@ -197,4 +197,33 @@ h3 {
 
 /* END OF BANNER */
 
+/* Table 1 */
 
+.feature-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.feature-table td {
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the headings and descriptions */
+.feature-table h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.feature-table .body {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Center the table in the responsive web page */
+.section-content-1 {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px; /* Adjust the max-width as needed */
+}
