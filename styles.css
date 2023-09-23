@@ -199,31 +199,54 @@ h3 {
 
 /* Table 1 */
 
-.feature-table {
-    border-collapse: collapse;
-    width: 100%;
+.section-content-1 {
+    margin-top: 20px; /* Ensure the table is at least 20px away from the bottom of .banner1 */
 }
 
-.feature-table td {
-    border: none;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Style the headings and descriptions */
-.feature-table h3 {
-    font-size: 18px;
+/* Remove list decorations */
+.section-content-1 ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 
-.feature-table .body {
-    font-size: 14px;
-    color: #333;
+/* Align table headings with h3 attributes */
+.section-content-1 table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-/* Center the table in the responsive web page */
-.section-content-1 {
-    text-align: center;
-    margin: 20px auto;
-    max-width: 800px; /* Adjust the max-width as needed */
+.section-content-1 th {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Align paragraphs with .body attributes */
+.section-content-1 td {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+    color: var(--primary-body-color);
+    text-align: left;
+    padding: 10px;
+}
+
+/* Responsive table - split into two columns on smaller screens */
+@media (max-width: 768px) {
+    .section-content-1 table {
+        display: block;
+    }
+
+    .section-content-1 td,
+    .section-content-1 th {
+        display: block;
+        width: 100%;
+    }
 }
