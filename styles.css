@@ -71,11 +71,13 @@ h3 {
 .centered-logo {
     display: flex;
     align-items: center;
+    line-height: 72px;
     margin-left: 3%;
+    padding-left: 100px;
 }
 
 .web {
-    font-family: Raleway;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 800;
     /* line-height: 21px; */
@@ -84,7 +86,7 @@ h3 {
     color: var(--primary-brand-color);
 }
 .studio {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     /* line-height: 21px; */
