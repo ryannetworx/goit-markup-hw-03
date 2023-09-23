@@ -40,6 +40,7 @@ h3 {
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 24px;
+    color: #434455  ;
 }
 
 /* Navigation */
@@ -47,9 +48,18 @@ h3 {
 .header-body-medium {
     font-family: "Roboto", sans-serif;
     font-weight:  500;
-    font-size: 16px;
+    font-size: 16px;                         
     letter-spacing: 2%;
     line-height: 24px;
+    color: #2E2F42 ;
 }
 
- 
+.button-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+/* Link and Small typography not yet included */
