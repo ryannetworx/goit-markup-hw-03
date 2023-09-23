@@ -188,6 +188,7 @@ h3 {
     font-weight: bold; /* Optionally, make the font bold */
     letter-spacing: 4%;
     margin-top: 20px; /* Remove margin  for padding */
+    font-size: 16px; /* Remove border for border with underline */
 }
 
 .button-text:hover,
