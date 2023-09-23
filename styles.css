@@ -43,23 +43,86 @@ h3 {
     color: #434455  ;
 }
 
+/* Link and Small typography not yet included */
+
 /* Navigation */
 
-.header-body-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight:  500;
-    font-size: 16px;                         
-    letter-spacing: 2%;
-    line-height: 24px;
-    color: #2E2F42 ;
+header {
+    width: 1440px;
+    height: 72px; 
+    background-color: #fff;
+    border: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
-.button-text {
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    background-color: #e7e9fc; /* based on figma*/
+}
+
+.header-body-medium ul {
+    list-style: none; /* no bullet points from the list */
+    padding: 0; /* no default padding */
+    margin: 0; /* no default margin */
+}
+
+.header-body-medium li {
+    display: inline-block; /* Display list items horizontally inside div */
+    margin-right: 10px; /* Add spacing between items */
+}
+
+.header-body-medium a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+    color: #2E2F42;
+    text-decoration: none;
+    gap: 40px;
+}
+
+.contact-info {
+    display: flex; /* Display the contact info as a flex container */
+    align-items: center;
+}
+
+.contact-info a {
+    margin-left: 50px; /* Add spacing between email and phone */
+    text-decoration: none;
+}
+
+.web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    color: #4D5AE5;
+}
+
+.studio {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2E2F42
+    ;
+
+}
+
+/* .button-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
-}
-
-/* Link and Small typography not yet included */
+} 
+*/
