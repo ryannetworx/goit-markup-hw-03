@@ -5,6 +5,7 @@
     --primary-success-color: #31D0AA;
     --primary-light-mode-background: #F4F4FD;
     --primary-accent-color: #E7E9FC;
+    --primary-body-color: #434455;
 
 }
 
@@ -40,7 +41,7 @@ h3 {
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 24px;
-    color: #434455  ;
+    color: var(--primary-body-color)
 }
 
 .body {
@@ -49,7 +50,7 @@ h3 {
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 24px;
-    color: #434455  ;
+    color: var(--primary-body-color);
 }
 
 /* Link and Small typography not yet included */
@@ -57,21 +58,21 @@ h3 {
 /* Navigation */
 
 .navigation-bar {
-    width: 1440px;
+    width: 100%;;
     height: 72px;
     background: linear-gradient(0deg, #E7E9FC, #E7E9FC), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     border-bottom: 1px solid var(--primary-accent-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 .centered-logo {
     display: flex;
     align-items: center;
+    margin-left: 5%;
 }
-
 
 .web {
     font-family: Raleway;
@@ -82,7 +83,6 @@ h3 {
     text-align: left;
     color: var(--primary-brand-color);
 }
-
 .studio {
     font-family: Raleway;
     font-size: 18px;
@@ -93,32 +93,65 @@ h3 {
     color: var(--primary-dark-overlays);
 }
 
+.header-body-medium {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
 .header-body-medium ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
 .header-body-medium li {
-    margin-right: 40px;
+    display: inline-block;
+    margin-right: 3%;
 }
 
 .header-body-medium a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
-    color: #2E2F42;
     text-decoration: none;
-    width: 261px;
-    height: 24px;
-    display: inline-block;
+    color: inherit;
 }
 
-.contact-info {
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    align-items: center;
 }
 
+.contact-info li {
+    text-decoration: none;
+}
+
+.header-nav-mail,
+.header-nav-phone {
+    text-decoration: none; /* Remove link decorations */
+    color: inherit; /* Inherit the text color from the parent */
+}
+
+.header-nav-mail {
+    margin-left: 20px;
+}
+
+.header-nav-phone {
+    margin-left: 20px;
+}
+
+/* Media query for adjusting margins for smaller screens */
+/* @media screen and (max-width: 768px) {
+    .header-body-medium {
+        margin-left: 1%; Adjust margin for smaller screens */
+    }
+
+    /* .header-body-medium li { */
+        /* margin-right: 1%; Adjust margin for smaller screens */
+    }
+
+    /* .contact-info { */
+        /* margin-left: auto; Move contact-info to the right on smaller screens */
+    }
+}
