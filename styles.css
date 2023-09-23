@@ -65,13 +65,13 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 0;
 }
 
 .centered-logo {
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .web {
@@ -96,7 +96,7 @@ h3 {
 .header-body-medium {
     display: flex;
     align-items: center;
-    margin-left: 3%;
+    margin-left: 1%;
 }
 
 .header-body-medium ul {
@@ -108,7 +108,7 @@ h3 {
 
 .header-body-medium li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .header-body-medium a {
@@ -134,24 +134,15 @@ h3 {
 }
 
 .header-nav-mail {
-    margin-left: 20px;
+    margin-left: 5px;
+    padding-right: 50px;
 }
 
 .header-nav-phone {
-    margin-left: 20px;
+    margin-left: 5px;
+    padding-right: 100px;
 }
 
-/* Media query for adjusting margins for smaller screens */
-/* @media screen and (max-width: 768px) {
-    .header-body-medium {
-        margin-left: 1%; Adjust margin for smaller screens */
-    
-    /* .header-body-medium li { */
-        /* margin-right: 1%; Adjust margin for smaller screens */
-
-        /* .contact-info { */
-        /* margin-left: auto; Move contact-info to the right on smaller screens */
-    
 /* END OF NAVIGATION BAR */
 
 /* Banner */
