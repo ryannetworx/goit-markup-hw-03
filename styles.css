@@ -1,0 +1,196 @@
+body, h2, nav {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+}
+
+.web {
+    color: #4D5AE5;
+    text-align: left;
+}
+
+.studio {
+    color: #2E2F42;
+    text-align: left;
+}
+
+nav a {
+    /* font-family: "Roboto", sans-serif; */
+    /* font-size: 16px; */
+    font-weight: 700;
+    /* line-height: 24px; */
+    /* letter-spacing: 0.02em; */
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-studio, #nav-portfolio, #nav-contacts {
+    text-decoration: none;
+  }
+  
+#nav-studio {
+    color: #4D5AE5;
+}
+
+.nav-link2 {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    
+}
+
+header {
+    margin-bottom: 40px; /* might delete this based on figma */
+}
+
+h1, .button {
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    /* font-family: "Roboto", sans-serif; */
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0714;
+}
+
+.banner1 {
+    width: 100%;
+    /* height: auto; */
+    position: relative;
+    background-color: #2E2F42;
+    /* top: 72px; */
+    display: flex;
+    justify-content: center; /* Align content to the start (top) */
+    align-items: center; /* Align content to the start (left) */
+    flex-direction: column; /* check if stacked with the children vertically */
+    text-align: center; /* Align content */
+}
+
+#tagline {
+    margin-top: 10px; /* Adjust the margin from the top as needed */
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 10px; /* 10px gap between h1 and button */
+}
+
+.button {
+    width: auto;
+    /* height: 56px; */
+    /* padding: 16px 32px; */
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    /* display: inline-flex;
+    align-items: center;
+    justify-content: center; */
+    transition: background-color 0.3s;
+    margin-bottom: 3px;
+
+}
+
+.button a {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    white-space: nowrap; /* prevet from wrapping to a new line */
+}
+
+.button:hover {
+    background-color: #081be8; /* the changing background color */
+}
+
+/* #solutions {} maybe next assignment in div */
+
+.section-content-1 {
+    background-color: #FFFFFF;
+    /* padding: 20px; */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+}
+
+.centered-heading h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center; /* Center-align the text */
+    font-size: 36px; /* Check if 40px is ok */
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 20px; /* Add some top margin for spacing */
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+
+/* li {
+  margin: 20px 0; 
+} */
+
+h3 {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+footer {
+    width: 100%;
+    /* height: 312px; */
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-size: 16px;
+    /* padding: 20px; */
+    box-sizing: border-box; /* Include padding and border in the width */
+    text-align: left; /* Center-align content */
+    /* text-align: center; Center-align content */
+    /* position: relative; */
+    /* top: 2280px; Adjust top position as needed */
+}
+
+h4 {
+    /* font-family: "Raleway", sans-serif; */
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.3125;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+#web-footer {
+    color: #4D5AE5;
+    ;
+}
+
+#studio-footer {
+    color: #F4F4FD;
+}
