@@ -300,6 +300,7 @@ h3 {
 
 .team1 {
     width: 100%;
+    min-height: 620px;
     background: #F4F4FD;
     margin-top: 40px;
     position: relative;
@@ -319,6 +320,7 @@ h3 {
 
 .team1 .team-list-container {
     display: flex;
+    flex-wrap: wrap; /* added for responsive layout */
     justify-content: center; /* Center the list horizontally */
 }
 
@@ -326,13 +328,15 @@ h3 {
     list-style: none;
     padding: 0;
     display: flex; /* Make the list items flex containers */
+    flex-wrap: wrap; /* Allow the items to wrap to the next line */
     justify-content: center; /* Center the list items horizontally */
+    
 }
 
 .team1 .team-member {
     text-decoration: none;
     width: 264px; /* Set width to 264px */
-    height: 380px; /* Set height to 380px */
+    height: 350px; /* Set height to 380px, will place socials here */
     margin: 10px; /* Add margin between team members */
     border-radius: 0px 0px 4px 4px; /* Set border-radius */
     background: #FFFFFF;
@@ -390,17 +394,16 @@ h3 {
 
 /* Media query for smaller screens */
 @media (max-width: 768px) { /* Adjust the breakpoint as needed */
-    .team1 .team-list-container {
+    .team1 .team-list {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .team1 .team-member {
-        width: 264px; /* Set width to 264px */
-        margin: 10px; /* Add margin between team members */
+        width: 100%; /* Set width to 100% to make each member appear on a separate line */
+        margin: 20px 0; /* Add margin between team members on smaller screens */
     }
 }
-
 
 /* END OF TEAM1 */
 
