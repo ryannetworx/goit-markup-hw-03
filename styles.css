@@ -66,6 +66,10 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    position: fixed; /* this helps with nav bar not move and overflow */
+    top: 0; /* this helps with nav bar not move and overflow */
+    left: 0; /* this helps with nav bar not move and overflow */
+    z-index: 100; /* Ensure it appears above other content */
 }
 
 .centered-logo {
