@@ -214,9 +214,11 @@ h3 {
 
 /* Align table headings with h3 attributes */
 .section-content-1 table {
-    width: 100px;
+    margin: 0 auto; /* Center the table horizontally */
+    max-width: 1128px; /* Set a maximum width for the table */
     border-collapse: collapse;
 }
+
 
 .section-content-1 th {
     font-family: "Roboto", sans-serif;
@@ -261,16 +263,6 @@ h3 {
     text-align: center;
 }
 
-.services1 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
-    flex-wrap: wrap;
-}
-
 .section-heading {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -280,11 +272,10 @@ h3 {
     margin-top: 20px;
 }
 
-/* Horizontal alignment for images */
-.services1 ul {
+.image-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     flex-wrap: wrap;
 }
 
@@ -294,6 +285,5 @@ h3 {
     border: 1px solid #E7E9FC;
     background-color: #E7E9FC;
     margin-top: 20px;
-    flex: 1;
     margin-right: 20px; /* Adds a small gap between images */
 }
