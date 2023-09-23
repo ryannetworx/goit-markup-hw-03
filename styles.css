@@ -8,3 +8,48 @@
 
 }
 
+/* General Styles */
+
+.header-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    color: #2E2F42
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2E2F42; 
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+
+/* Navigation */
+
+.header-body-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight:  500;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: 24px;
+}
+
+ 
