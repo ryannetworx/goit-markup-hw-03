@@ -165,18 +165,18 @@ h3 {
     color: #FFFFFF;
     width: 496px;
     height: 120px;
-    top: 260px;
+    top: 100px;
     left: 472px;
     text-align: center;
     font-size: 56px;
-    margin: 0; /* Remove default margins */
+    margin: 5px auto 0 auto;
 }
 
 /* Styling for the button */
 .button-text {
     width: 169px;
     height: 56px;
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
     border-radius: 4px;
     background: var(--primary-brand-color);
     color: #FFFFFF;
@@ -187,9 +187,14 @@ h3 {
     outline: none; /* Remove outline on focus */
     font-weight: bold; /* Optionally, make the font bold */
     letter-spacing: 4%;
+    margin-top: 20px; /* Remove margin  for padding */
 }
 
 .button-text:hover,
 .button-text:active {
     background: var(--pressed-state-color);
 }
+
+/* END OF BANNER */
+
+
