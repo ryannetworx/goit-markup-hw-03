@@ -206,6 +206,10 @@ h3 {
     margin-right: 50px; /* Add 50px margin from the right */
 }
 
+.section-content-1 p {
+    min-height: 72px; /* Adjust the height as needed for at least 3 lines of text */
+}
+
 /* Remove list decorations */
 .section-content-1 ul {
     list-style: none;
@@ -216,7 +220,7 @@ h3 {
 /* Align table headings with h3 attributes */
 .section-content-1 table {
     margin: 0 auto; /* Center the table horizontally */
-    max-width: 1128px; /* Set a maximum width for the table */
+    max-width: 1250px; /* Set a maximum width for the table */
     border-collapse: collapse;
 }
 
