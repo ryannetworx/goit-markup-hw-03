@@ -200,7 +200,9 @@ h3 {
 /* Table 1 */
 
 .section-content-1 {
-    margin-top: 20px; /* Ensure the table is at least 20px away from the bottom of .banner1 */
+    margin-top: 80px; /* away from the bottom of .banner1 */
+    margin-left: 50px; /* Add 50px margin from the left */
+    margin-right: 50px; /* Add 50px margin from the right */
 }
 
 /* Remove list decorations */
@@ -212,7 +214,7 @@ h3 {
 
 /* Align table headings with h3 attributes */
 .section-content-1 table {
-    width: 100%;
+    width: 100px;
     border-collapse: collapse;
 }
 
