@@ -265,7 +265,7 @@ h3 {
 /* Section Services1 */
 .services1 {
     margin-top: 80px;
-    margin-bottom: 60px; /* Add margin to create distance */
+    margin-bottom: 80px; /* Add margin to create distance */
     text-align: center;
 }
 
@@ -364,8 +364,8 @@ h3 {
     font-size: 20px;
     letter-spacing: 2%;
     color: var(--primary-dark-overlays);
-    margin-top: 20px; /* Keep the top margin as is */
-    margin-bottom: 8px; /* Adjust the bottom margin to 8px */
+    margin-top: 24px; /* Decreased margin-top to move h3 lower */
+    margin-bottom: 12px; /* Adjusted margin-bottom for spacing between h3 and p */
 }
 
 .team-member p {
@@ -375,15 +375,11 @@ h3 {
     letter-spacing: 2%;
     line-height: 24px;
     color: var(--primary-body-color);
-    margin-top: 0; /* Adjust the top margin to 8px */
-    margin-bottom: 20px; /* Keep the bottom margin as is */
-}
-
-.team-member h3,
-.team-member p {
-    width: 232px;
-    height: 56px;
-    gap: 8px;
+    margin-top: auto; /* Auto margin to center p vertically */
+    margin-bottom: auto; /* Auto margin to center p vertically */
+    display: flex;
+    justify-content: center; /* Center p horizontally */
+    align-items: center; /* Center p vertically */
 }
 
 /* Responsive styling */
