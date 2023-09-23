@@ -265,6 +265,7 @@ h3 {
 /* Section Services1 */
 .services1 {
     margin-top: 80px;
+    margin-bottom: 60px; /* Add margin to create distance */
     text-align: center;
 }
 
@@ -298,7 +299,7 @@ h3 {
 /* Team1 */
 
 .team1 {
-    width: 1440px;
+    min-width: 1440px;
     height: 732px;
     top: 1548px;
     background: #F4F4FD;
