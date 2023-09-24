@@ -456,4 +456,57 @@ footer {
     color: #F4F4FD;
 }
 
-/* Additional Styling for the footer as
+/* Additional Styling for the footer as needed*/
+
+
+/* PORTFOLIO ******************************** */
+
+/* Styling for the filter buttons container */
+.filter-btn {
+    margin-top: 170px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: center;
+}
+
+/* Styling for the filter buttons */
+.filter-button {
+    width: auto;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust the spacing between buttons */
+    margin-bottom: 10px; /* Adjust the spacing between rows */
+
+
+}
+
+/* Inactive button style */
+.filter-button:not(.active) {
+    background: linear-gradient(0deg, #F4F4FD, #F4F4FD), linear-gradient(0deg, #E7E9FC, #E7E9FC);
+    border: 1px solid #E7E9FC;
+    color: #4D5AE5; /* Text color for inactive buttons */
+}
+
+/* Active button style (unchanged) */
+.filter-button.active {
+    width: 69px;
+    background: #404BBF;
+    box-shadow: 0px 2px 2px 0px #0000001F, 0px 2px 1px 0px #00000014, 0px 3px 1px 0px #0000001A;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .filter-btn {
+        justify-content: flex-start; /* Align buttons to the left on smaller screens */
+    }
+}
