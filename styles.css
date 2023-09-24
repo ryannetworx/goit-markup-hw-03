@@ -518,9 +518,8 @@ footer {
 /* PROJECT CARDS */
 
 /* Portfolio Cards Section */
-/* Portfolio Cards Section */
 .portfolio-cards {
-    margin-top: 40px; /* 40px below .filter-btn */
+    margin-top: 60px; /* 40px below .filter-btn */
     display: flex;
     flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
     justify-content: space-around; /* Horizontally center cards */
@@ -548,6 +547,16 @@ footer {
     margin: 0; /* Remove any margin */
 }
 
+/* Ensure that row-1, row-2, and row-3 are centered horizontally */
+.row-1,
+.row-2,
+.row-3 {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap to the next line */
+    justify-content: center;
+    gap: 20px 10px; /* Add gap between card-containers */
+}
+
 /* Add margin-right to the project cards in row-1 */
 .row-1 li,
 .row-2 li,
@@ -566,8 +575,8 @@ footer {
 .card-container {
     width: 360px;
     height: 420px;
-    border: 1px solid #E7E9FC;
     background: linear-gradient(0deg, #E7E9FC, #E7E9FC), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #E7E9FC;
     margin-bottom: 40px; /* Add margin between card-containers */
 }
 
@@ -581,7 +590,7 @@ footer {
 .project-card-7,
 .project-card-8,
 .project-card-9 {
-    width: 360px;
+    max-width: 360px;
     height: 420px;
     top: 288px;
     left: 156px;
@@ -599,6 +608,7 @@ footer {
     top: 332px;
     padding: 0px 16px 0px 16px;
 }
+
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
